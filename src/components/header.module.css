@@ -1,0 +1,19 @@
+.header {
+  margin: 50px auto;
+  text-transform: capitalize;
+}
+.header span {
+  font-size: 40px;
+  font-weight: bold;
+  background-color: beige;
+  padding: 5px;
+  display: block;
+  transform: skewX(25deg);
+  width: fit-content;
+  margin: 0 auto;
+}
+.header div {
+  width: fit-content;
+  margin: 10px auto;
+  padding: 0 10px;
+}

@@ -1,0 +1,54 @@
+.question-container {
+  width: 525px;
+  max-width: 90%;
+  margin: 50px auto;
+  text-transform: capitalize;
+  box-shadow: 3px 3px 15px #000;
+  padding-bottom: 5px;
+}
+
+.question-container .head {
+  background-color: beige;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-weight: bold;
+}
+.question-container .body {
+  padding: 20px;
+}
+
+.question-container button {
+  margin-left: auto;
+  margin-right: 30px;
+  display: block;
+  font-size: 20px;
+  padding: 8px 15px;
+  background-color: beige;
+  cursor: pointer;
+}
+
+.question-container .radio {
+  padding: 10px;
+  background-color: #b7b7b7;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.question-container input {
+  background-color: black;
+  cursor: pointer;
+  margin: 1px 5px 1px 5px;
+  padding: 2px;
+  border: none;
+}
+
+.question-container .icon {
+  font-size: 20px;
+  margin-left: 8px;
+}
+
+.error-message {
+  color: #ff4d4d;
+}

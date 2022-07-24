@@ -1,0 +1,53 @@
+.answers-container {
+  width: 525px;
+  max-width: 90%;
+  margin: 50px auto;
+  text-transform: capitalize;
+  padding-bottom: 5px;
+  border: 2px solid #d1d1c3;
+  padding: 10px;
+}
+
+.answers-container .head {
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+@media (max-width: 530px) {
+  .answers-container .head {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.answers-container button {
+  margin-left: auto;
+  margin-right: 30px;
+  display: block;
+  font-size: 20px;
+  padding: 8px 15px;
+  background-color: beige;
+  cursor: pointer;
+}
+
+.answers-container .radio {
+  padding: 10px;
+  background-color: #b7b7b7;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.answers-container .correct {
+  background-color: #96f46a;
+}
+.answers-container .incorrect {
+  background-color: #f46a6a;
+}
+
+.answers-container .icon {
+  margin-right: 8px;
+  font-size: 20px;
+}
